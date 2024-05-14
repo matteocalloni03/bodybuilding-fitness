@@ -1,5 +1,6 @@
 package com.example.bodybuildingfitness
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -17,5 +18,11 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate((layoutInflater))
 
         setContentView(binding.root)
+    }
+
+    override fun onStart() {
+        super.onStart()
+        val intent = Intent(this,navigationActivity::class.java)
+        startActivity(intent)
     }
 }
