@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "191841140418",
+    "project_id": "bodybuilding-and-fitness",
+    "storage_bucket": "bodybuilding-and-fitness.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191841140418:android:192f358706d9d84e5e455b",
+        "android_client_info": {
+          "package_name": "com.example.bodybuildingfitness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAreaDH068gQ7fOm4KjPpu5L2HQTcnXDTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
