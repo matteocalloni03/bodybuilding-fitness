@@ -25,7 +25,7 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="pasti" />
         <item
-            android:id="@+id/statistiche"
+            android:id="@+id/nav_statistiche"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="statistiche" />
 

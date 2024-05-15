@@ -6,6 +6,11 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
+        android:id="@+id/nav_statistiche"
+        android:name="com.example.bodybuildingfitness.ui.statistiche.statisticheFragment"
+        android:label="@string/menu_statistiche"
+        tools:layout="@layout/fragment_statistiche" />
+    <fragment
         android:id="@+id/nav_pasti"
         android:name="com.example.bodybuildingfitness.ui.pasti.pastiFragment"
         android:label="@string/menu_pasti"
