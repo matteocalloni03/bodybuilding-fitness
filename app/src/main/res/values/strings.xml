@@ -11,5 +11,6 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Esercizi</string>
-    <string name="menu_corpo">corpo</string>
+    <string name="menu_corpo">Corpo</string>
+    <string name="menu_pasti">Pasti</string>
 </resources>
