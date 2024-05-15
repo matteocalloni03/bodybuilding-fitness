@@ -6,6 +6,11 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
+        android:id="@+id/nav_corpo"
+        android:name="com.example.bodybuildingfitness.ui.corpo.corpoFragment"
+        android:label="@string/menu_corpo"
+        tools:layout="@layout/fragment_corpo" />
+    <fragment
         android:id="@+id/nav_home"
         android:name="com.example.bodybuildingfitness.ui.home.HomeFragment"
         android:label="@string/menu_home"

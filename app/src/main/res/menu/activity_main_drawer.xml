@@ -17,7 +17,7 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="esercizi" />
         <item
-            android:id="@+id/corpo"
+            android:id="@+id/nav_corpo"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="corpo" />
         <item
