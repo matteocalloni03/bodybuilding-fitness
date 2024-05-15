@@ -51,7 +51,7 @@ class LoginActivity : AppCompatActivity() {
 
             val currentUser = auth.currentUser
             if(currentUser != null){
-                val intent = Intent(this,MainActivity::class.java)
+                val intent = Intent(this,navigationActivity::class.java)
                 startActivity(intent)
             }
         }
