@@ -26,7 +26,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
         auth = Firebase.auth
 
-        binding.continuebtn.setOnClickListener(){
+       /* binding.continuebtn.setOnClickListener(){
             auth.createUserWithEmailAndPassword(binding.email.getText().toString().trim(), binding.password.getText().toString().trim())
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
@@ -46,21 +46,25 @@ class LoginActivity : AppCompatActivity() {
                     }
                 }
 
+        }*/
+        binding.continuebtn.setOnClickListener(){
+
+            val currentUser = auth.currentUser
+            if(currentUser != null){
+                val intent = Intent(this,MainActivity::class.java)
+                startActivity(intent)
+            }
         }
+
+
+
+
+
         binding.move.setOnClickListener(){
             val intent = Intent(this,SignupActivity::class.java)
             startActivity(intent)
         }
 
-    }
-    public override fun onStart() {
-        super.onStart()
-        // Check if user is signed in (non-null) and update UI accordingly.
-        val currentUser = auth.currentUser
-        if (currentUser != null) {
-            val intent = Intent(this,MainActivity::class.java)
-            startActivity(intent)
-        }
     }
 
 }
