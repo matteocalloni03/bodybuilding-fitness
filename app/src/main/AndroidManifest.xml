@@ -13,6 +13,21 @@
         android:theme="@style/Theme.BodybuildingFitness"
         tools:targetApi="31">
         <activity
+            android:name=".ui.slideshow.giorni5"
+            android:exported="false" />
+        <activity
+            android:name=".ui.slideshow.giorni4"
+            android:exported="false" />
+        <activity
+            android:name=".ui.slideshow.giorni3"
+            android:exported="false" />
+        <activity
+            android:name=".ui.slideshow.giorni2"
+            android:exported="false" />
+        <activity
+            android:name=".ui.slideshow.giorni1"
+            android:exported="false" />
+        <activity
             android:name=".SettingsActivity"
             android:exported="false" />
         <activity
