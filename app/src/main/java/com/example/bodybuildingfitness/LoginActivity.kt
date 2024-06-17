@@ -26,7 +26,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
         auth = Firebase.auth
 
-       /* binding.continuebtn.setOnClickListener(){
+       binding.continuebtn.setOnClickListener(){
             auth.createUserWithEmailAndPassword(binding.email.getText().toString().trim(), binding.password.getText().toString().trim())
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
@@ -46,7 +46,7 @@ class LoginActivity : AppCompatActivity() {
                     }
                 }
 
-        }*/
+        }
         binding.continuebtn.setOnClickListener(){
 
             val currentUser = auth.currentUser
@@ -65,6 +65,15 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+    }
+
+    override fun onStart() {
+        super.onStart()
+        val currentUser = auth.currentUser
+        if(currentUser != null){
+            val intent = Intent(this,navigationActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 }
