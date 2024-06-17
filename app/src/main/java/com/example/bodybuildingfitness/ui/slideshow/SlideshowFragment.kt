@@ -67,7 +67,7 @@ class SlideshowFragment : Fragment() {
         //giorno 5
         val button5 = binding.button5
         button5.setOnClickListener {
-            val intent = Intent(requireContext(), giorni1::class.java)
+            val intent = Intent(requireContext(), giorni5::class.java)
             startActivity(intent)
         }
 

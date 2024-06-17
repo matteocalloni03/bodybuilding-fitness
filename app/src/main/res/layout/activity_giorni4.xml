@@ -11,11 +11,128 @@
         android:id="@+id/textView4"
         android:layout_width="251dp"
         android:layout_height="77dp"
+        android:layout_marginTop="30dp"
         android:text="4 giorni a settimana:"
         android:textAlignment="center"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="59dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp" />
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="595dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giorno 1: Parte Superiore del Corpo (Spalle e Torace)\n
+Riscaldamento (5-10 minuti)\n
+Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
+Stretching dinamico per la parte superiore del corpo: 2-5 minuti\n
+Allenamento\n
+Panca Inclinata con Manubri\n
+
+Serie: 3\n
+Ripetizioni: 10\n
+Riposo: 1 minuto tra le serie\n
+Arnold Press\n
+
+Serie: 3\n
+Ripetizioni: 12\n
+Riposo: 1 minuto tra le serie\n
+Pec Deck (Chest Fly)\n
+
+Serie: 3\n
+Ripetizioni: 12\n
+Riposo: 1 minuto tra le serie\n
+Alzate Laterali con Manubri\n
+
+Serie: 3\n
+Ripetizioni: 15\n
+Riposo: 1 minuto tra le serie\n
+Giorno 2: Parte Inferiore del Corpo (Gambe e Glutei)\n
+Riscaldamento (5-10 minuti)\n
+Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
+Stretching dinamico per la parte inferiore del corpo: 2-5 minuti\n
+Allenamento\n
+Leg Press\n
+
+Serie: 3\n
+Ripetizioni: 12\n
+Riposo: 1 minuto tra le serie\n
+Hip Thrust\n
+
+Serie: 3\n
+Ripetizioni: 15\n
+Riposo: 1 minuto tra le serie\n
+Affondi con Manubri\n
+
+Serie: 3\n
+Ripetizioni: 12 per gamba\n
+Riposo: 1 minuto tra le serie\n
+Calf Raises su Piattaforma\n
+
+Serie: 3\n
+Ripetizioni: 15\n
+Riposo: 1 minuto tra le serie\n
+Giorno 3: Schiena e Bicipiti\n
+Riscaldamento (5-10 minuti)\n
+Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
+Stretching dinamico per la parte superiore del corpo: 2-5 minuti\n
+Allenamento\n
+Lat Pulldown\n
+
+Serie: 3\n
+Ripetizioni: 10\n
+Riposo: 1 minuto tra le serie\n
+Rematore con Bilanciere\n
+
+Serie: 3\n
+Ripetizioni: 12\n
+Riposo: 1 minuto tra le serie\n
+Face Pull\n
+
+Serie: 3\n
+Ripetizioni: 15\n
+Riposo: 1 minuto tra le serie\n
+Biceps Curl con Manubri\n
+
+Serie: 3\n
+Ripetizioni: 12\n
+Riposo: 1 minuto tra le serie\n
+Giorno 4: Core e Allenamento Completo\n
+Riscaldamento (5-10 minuti)\n
+Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
+Stretching dinamico: 2-5 minuti\n
+Allenamento\n
+Plank\n
+
+Serie: 3\n
+Durata: 30-60 secondi\n
+Riposo: 1 minuto tra le serie\n
+Russian Twist\n
+
+Serie: 3\n
+Ripetizioni: 20 per lato\n
+Riposo: 1 minuto tra le serie\n
+Mountain Climbers\n
+
+Serie: 3\n
+Ripetizioni: 20 per gamba\n
+Riposo: 1 minuto tra le serie\n
+Kettlebell Swing\n
+
+Serie: 3\n
+Ripetizioni: 15\n
+Riposo: 1 minuto tra le serie\n" />
+    </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,15 +6,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.slideshow.giorni2">
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="251dp"
         android:layout_height="77dp"
-        android:text="2 giorni a settimana:"
+        android:layout_marginTop="48dp"
+        android:text="@string/_2_giorni_a_settimana"
         android:textAlignment="center"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="59dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="80dp" />
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="595dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/giorno_1_parte_superiore_del_corpo_n_riscaldamento_5_10_minuti_n_corsa_leggera_sul_posto_o_tapis_roulant_3_5_minuti_n_stretching_dinamico_per_la_parte_superiore_del_corpo_2_5_minuti_n_allenamento_n_panca_piana_con_bilanciere_n_serie_3_n_ripetizioni_10_n_riposo_1_minuto_tra_le_serie_n_rematore_con_manubri_n_serie_3_n_ripetizioni_12_per_braccio_n_riposo_1_minuto_tra_le_serie_n_military_press_con_manubri_n_serie_3_n_ripetizioni_10_n_riposo_1_minuto_tra_le_serie_n_trazioni_alla_sbarra_n_serie_3_n_ripetizioni_8_10_o_quanto_riesci_n_riposo_1_minuto_tra_le_serie_n_curl_con_manubri_n_serie_3_n_ripetizioni_12_n_riposo_1_minuto_tra_le_serie_n_estensioni_per_tricipiti_con_manubrio_n_serie_3_n_ripetizioni_12_n_riposo_1_minuto_tra_le_serie_n_defaticamento_5_minuti_n_camminata_leggera_sul_tapis_roulant_2_3_minuti_n_stretching_statico_per_la_parte_superiore_del_corpo_2_3_minuti_n_giorno_2_parte_inferiore_del_corpo_e_addome_n_riscaldamento_5_10_minuti_n_corsa_leggera_sul_posto_o_tapis_roulant_3_5_minuti_n_stretching_dinamico_per_la_parte_inferiore_del_corpo_2_5_minuti_n_allenamento_n_squat_con_bilanciere_n_serie_3_n_ripetizioni_12_n_riposo_1_minuto_tra_le_serie_n_affondi_alternati_n_serie_3_n_ripetizioni_12_per_gamba_n_riposo_1_minuto_tra_le_serie_n_leg_press_n_serie_3_n_ripetizioni_10_n_riposo_1_minuto_tra_le_serie_n_calf_raises_n_serie_3_n_ripetizioni_15_n_riposo_1_minuto_tra_le_serie_n_crunch_su_panca_inclinata_n_serie_3_n_ripetizioni_15_n_riposo_1_minuto_tra_le_serie_n_plank_n_serie_3_n_durata_30_60_secondi_n_riposo_1_minuto_tra_le_serie_n" />
+    </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
