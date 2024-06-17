@@ -63,7 +63,7 @@ class GalleryFragment : Fragment() {
                 if (user != null) {
                     val dataFormattata = SimpleDateFormat("dd/MM/yyyy", Locale.getDefault()).format(dataSelezionata)
                     val eventoData = hashMapOf(
-                        "userId" to user.uid,
+                        "userId" to user.email,
                         "testo" to testoEvento,
                         "data" to dataFormattata
                     )
