@@ -2,7 +2,8 @@ package com.example.bodybuildingfitness
 
 import android.os.Bundle
 import android.view.Menu
-import com.google.android.material.snackbar.Snackbar
+import android.view.View
+import android.widget.TextView
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
@@ -12,6 +13,8 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.example.bodybuildingfitness.databinding.ActivityNavigationBinding
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class navigationActivity : AppCompatActivity() {
 
@@ -26,12 +29,10 @@ class navigationActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.appBarNavigation.toolbar)
 
-
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
         val navController = findNavController(R.id.nav_host_fragment_content_navigation)
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
+
         appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_corpo, R.id.nav_pasti, R.id.nav_statistiche
@@ -39,10 +40,35 @@ class navigationActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+        // Aggiungi il listener al DrawerLayout
+        drawerLayout.addDrawerListener(object : DrawerLayout.DrawerListener {
+            override fun onDrawerOpened(drawerView: View) {
+                visualizzaEmailUtente()
+            }
+
+            // Altri metodi del DrawerListener che puoi ignorare per ora
+            override fun onDrawerSlide(drawerView: View, slideOffset: Float) {}
+            override fun onDrawerClosed(drawerView: View) {}
+            override fun onDrawerStateChanged(newState: Int) {}
+        })
+    }
+
+    // Funzione per visualizzare l'email dell'utente
+    private fun visualizzaEmailUtente() {
+        val navigationView = findViewById<NavigationView>(R.id.nav_view)
+        val headerView = navigationView.getHeaderView(0)
+        val textView = headerView.findViewById<TextView>(R.id.textView) // Sostituisci con l'ID corretto della TextView
+
+        val currentUser = Firebase.auth.currentUser
+        if (currentUser != null) {
+            textView.text = currentUser.email
+        } else {
+            textView.text = "Nessun utente connesso"
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.navigation, menu)
         return true
     }
