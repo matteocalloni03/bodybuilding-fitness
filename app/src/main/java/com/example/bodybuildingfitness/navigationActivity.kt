@@ -19,7 +19,6 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
 class navigationActivity : AppCompatActivity() {
-
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityNavigationBinding
 
@@ -34,7 +33,6 @@ class navigationActivity : AppCompatActivity() {
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
         val navController = findNavController(R.id.nav_host_fragment_content_navigation)
-
         appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_corpo, R.id.nav_pasti, R.id.nav_statistiche
@@ -49,7 +47,6 @@ class navigationActivity : AppCompatActivity() {
                 visualizzaEmailUtente()
             }
 
-            // Altri metodi del DrawerListener che puoi ignorare per ora
             override fun onDrawerSlide(drawerView: View, slideOffset: Float) {}
             override fun onDrawerClosed(drawerView: View) {}
             override fun onDrawerStateChanged(newState: Int) {}
@@ -61,7 +58,6 @@ class navigationActivity : AppCompatActivity() {
         val navigationView = findViewById<NavigationView>(R.id.nav_view)
         val headerView = navigationView.getHeaderView(0)
         val textView = headerView.findViewById<TextView>(R.id.textView) // Sostituisci con l'ID corretto della TextView
-
         val currentUser = Firebase.auth.currentUser
         if (currentUser != null) {
             textView.text = currentUser.email
@@ -90,5 +86,4 @@ class navigationActivity : AppCompatActivity() {
             else -> super.onOptionsItemSelected(item)
         }
     }
-
 }
