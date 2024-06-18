@@ -9,25 +9,28 @@
 
     <CalendarView
         android:id="@+id/calendarView"
-        android:layout_width="412dp"
-        android:layout_height="374dp"
-        android:layout_marginTop="50dp"
+        android:layout_width="349dp"
+        android:layout_height="366dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextEvento"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="342dp"
+        android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
         android:hint="Inserisci il testo dell'evento"
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/btnAggiungi"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -42,8 +45,8 @@
 
     <TextView
         android:id="@+id/textevento"
-        android:layout_width="399dp"
-        android:layout_height="158dp"
+        android:layout_width="319dp"
+        android:layout_height="160dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="10dp"
@@ -51,9 +54,9 @@
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/editTextEvento"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.29"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/calendarView"
+        app:layout_constraintVertical_bias="0.333"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

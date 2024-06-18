@@ -30,11 +30,9 @@ class pastiFragment : Fragment() {
         _binding = FragmentPastiBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textPasti
 
-        PastiViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
+
+
         return root
     }
 
