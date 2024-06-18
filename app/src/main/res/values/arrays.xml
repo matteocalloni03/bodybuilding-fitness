@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TimerApp</string>
+    <string-array name="timer_values">
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>1 minute 30 seconds</item>
+    </string-array>
+</resources>
