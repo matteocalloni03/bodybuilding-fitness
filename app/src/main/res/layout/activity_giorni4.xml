@@ -32,7 +32,7 @@
             android:id="@+id/myTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Giorno 1: Parte Superiore del Corpo (Spalle e Torace)\n
+            android:text="Giorno 1: Parte Superiore del Corpo (Spalle e Torace)\n\n
 Riscaldamento (5-10 minuti)\n
 Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
 Stretching dinamico per la parte superiore del corpo: 2-5 minuti\n
@@ -56,8 +56,8 @@ Alzate Laterali con Manubri\n
 
 Serie: 3\n
 Ripetizioni: 15\n
-Riposo: 1 minuto tra le serie\n
-Giorno 2: Parte Inferiore del Corpo (Gambe e Glutei)\n
+Riposo: 1 minuto tra le serie\n\n
+Giorno 2: Parte Inferiore del Corpo (Gambe e Glutei)\n\n
 Riscaldamento (5-10 minuti)\n
 Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
 Stretching dinamico per la parte inferiore del corpo: 2-5 minuti\n
@@ -81,8 +81,8 @@ Calf Raises su Piattaforma\n
 
 Serie: 3\n
 Ripetizioni: 15\n
-Riposo: 1 minuto tra le serie\n
-Giorno 3: Schiena e Bicipiti\n
+Riposo: 1 minuto tra le serie\n\n
+Giorno 3: Schiena e Bicipiti\n\n
 Riscaldamento (5-10 minuti)\n
 Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
 Stretching dinamico per la parte superiore del corpo: 2-5 minuti\n
@@ -106,8 +106,8 @@ Biceps Curl con Manubri\n
 
 Serie: 3\n
 Ripetizioni: 12\n
-Riposo: 1 minuto tra le serie\n
-Giorno 4: Core e Allenamento Completo\n
+Riposo: 1 minuto tra le serie\n\n
+Giorno 4: Core e Allenamento Completo\n\n
 Riscaldamento (5-10 minuti)\n
 Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
 Stretching dinamico: 2-5 minuti\n

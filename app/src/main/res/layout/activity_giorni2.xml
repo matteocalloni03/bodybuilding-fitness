@@ -25,14 +25,88 @@
         android:layout_marginTop="44dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:ignore="MissingConstraints"
+        tools:ignore="ExtraText,MissingConstraints"
         tools:layout_editor_absoluteX="0dp">
 
         <TextView
             android:id="@+id/myTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/giorno_1_parte_superiore_del_corpo_n_riscaldamento_5_10_minuti_n_corsa_leggera_sul_posto_o_tapis_roulant_3_5_minuti_n_stretching_dinamico_per_la_parte_superiore_del_corpo_2_5_minuti_n_allenamento_n_panca_piana_con_bilanciere_n_serie_3_n_ripetizioni_10_n_riposo_1_minuto_tra_le_serie_n_rematore_con_manubri_n_serie_3_n_ripetizioni_12_per_braccio_n_riposo_1_minuto_tra_le_serie_n_military_press_con_manubri_n_serie_3_n_ripetizioni_10_n_riposo_1_minuto_tra_le_serie_n_trazioni_alla_sbarra_n_serie_3_n_ripetizioni_8_10_o_quanto_riesci_n_riposo_1_minuto_tra_le_serie_n_curl_con_manubri_n_serie_3_n_ripetizioni_12_n_riposo_1_minuto_tra_le_serie_n_estensioni_per_tricipiti_con_manubrio_n_serie_3_n_ripetizioni_12_n_riposo_1_minuto_tra_le_serie_n_defaticamento_5_minuti_n_camminata_leggera_sul_tapis_roulant_2_3_minuti_n_stretching_statico_per_la_parte_superiore_del_corpo_2_3_minuti_n_giorno_2_parte_inferiore_del_corpo_e_addome_n_riscaldamento_5_10_minuti_n_corsa_leggera_sul_posto_o_tapis_roulant_3_5_minuti_n_stretching_dinamico_per_la_parte_inferiore_del_corpo_2_5_minuti_n_allenamento_n_squat_con_bilanciere_n_serie_3_n_ripetizioni_12_n_riposo_1_minuto_tra_le_serie_n_affondi_alternati_n_serie_3_n_ripetizioni_12_per_gamba_n_riposo_1_minuto_tra_le_serie_n_leg_press_n_serie_3_n_ripetizioni_10_n_riposo_1_minuto_tra_le_serie_n_calf_raises_n_serie_3_n_ripetizioni_15_n_riposo_1_minuto_tra_le_serie_n_crunch_su_panca_inclinata_n_serie_3_n_ripetizioni_15_n_riposo_1_minuto_tra_le_serie_n_plank_n_serie_3_n_durata_30_60_secondi_n_riposo_1_minuto_tra_le_serie_n" />
+            android:text=" Giorno 1: Parte Superiore del Corpo\n\n
+Riscaldamento (5-10 minuti)\n
+Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
+Stretching dinamico per la parte superiore del corpo: 2-5 minuti\n
+Allenamento\n
+Panca Piana con Bilanciere\n
+
+Serie: 3\n
+Ripetizioni: 10\n
+Riposo: 1 minuto tra le serie\n
+Rematore con Manubri\n
+
+Serie: 3\n
+Ripetizioni: 12 per braccio\n
+Riposo: 1 minuto tra le serie\n
+Military Press con Manubri\n
+
+Serie: 3\n
+Ripetizioni: 10\n
+Riposo: 1 minuto tra le serie\n
+Trazioni alla Sbarra\n
+
+Serie: 3\n
+Ripetizioni: 8-10 (o quanto riesci)\n
+Riposo: 1 minuto tra le serie\n
+Curl con Manubri\n
+
+Serie: 3\n
+Ripetizioni: 12\n
+Riposo: 1 minuto tra le serie\n
+Estensioni per Tricipiti con Manubrio\n
+
+Serie: 3\n
+Ripetizioni: 12\n
+Riposo: 1 minuto tra le serie\n
+Defaticamento (5 minuti)\n
+Camminata leggera sul tapis roulant: 2-3 minuti\n
+Stretching statico per la parte superiore del corpo: 2-3 minuti\n\n
+Giorno 2: Parte Inferiore del Corpo e Addome\n\n
+Riscaldamento (5-10 minuti)\n
+Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
+Stretching dinamico per la parte inferiore del corpo: 2-5 minuti\n
+Allenamento\n
+Squat con Bilanciere\n
+
+Serie: 3\n
+Ripetizioni: 12\n
+Riposo: 1 minuto tra le serie\n
+Affondi Alternati\n
+
+Serie: 3\n
+Ripetizioni: 12 per gamba\n
+Riposo: 1 minuto tra le serie\n
+Leg Press\n
+
+Serie: 3\n
+Ripetizioni: 10\n
+Riposo: 1 minuto tra le serie\n
+Calf Raises\n
+
+Serie: 3\n
+Ripetizioni: 15\n
+Riposo: 1 minuto tra le serie\n
+Crunch su Panca Inclinata\n
+
+Serie: 3\n
+Ripetizioni: 15\n
+Riposo: 1 minuto tra le serie\n
+Plank\n
+
+Serie: 3\n
+Durata: 30-60 secondi\n
+Riposo: 1 minuto tra le serie\n" />"
+
+
     </ScrollView>
 
 

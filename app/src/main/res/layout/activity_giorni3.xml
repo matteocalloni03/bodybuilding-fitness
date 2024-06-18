@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="
-Giorno 1: Parte Superiore del Corpo\n
+Giorno 1: Parte Superiore del Corpo\n\n
 Riscaldamento (5-10 minuti)\n
 Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
 Stretching dinamico per la parte superiore del corpo: 2-5 minuti\n
@@ -66,8 +66,8 @@ Ripetizioni: 12\n
 Riposo: 1 minuto tra le serie\n
 Defaticamento (5 minuti)\n
 Camminata leggera sul tapis roulant: 2-3 minuti\n
-Stretching statico per la parte superiore del corpo: 2-3 minuti\n
-Giorno 2: Parte Inferiore del Corpo\n
+Stretching statico per la parte superiore del corpo: 2-3 minuti\n\n
+Giorno 2: Parte Inferiore del Corpo\n\n
 Riscaldamento (5-10 minuti)\n
 Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
 Stretching dinamico per la parte inferiore del corpo: 2-5 minuti\n
@@ -94,8 +94,8 @@ Ripetizioni: 12 per gamba\n
 Riposo: 1 minuto tra le serie\n
 Defaticamento (5 minuti)\n
 Camminata leggera sul tapis roulant: 2-3 minuti\n
-Stretching statico per la parte inferiore del corpo: 2-3 minuti\n
-Giorno 3: Allenamento Completo e Addome\n
+Stretching statico per la parte inferiore del corpo: 2-3 minuti\n\n
+Giorno 3: Allenamento Completo e Addome\n\n
 Riscaldamento (5-10 minuti)\n
 Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
 Stretching dinamico: 2-5 minuti\n

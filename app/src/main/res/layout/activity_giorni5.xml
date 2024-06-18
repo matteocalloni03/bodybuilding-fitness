@@ -32,7 +32,7 @@
             android:id="@+id/myTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Giorno 1: Petto e Tricipiti\n
+            android:text="Giorno 1: Petto e Tricipiti\n\n
 Riscaldamento (5-10 minuti)\n
 Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
 Stretching dinamico per la parte superiore del corpo: 2-5 minuti\n
@@ -56,8 +56,8 @@ Estensioni Tricipiti sopra la Testa con Manubrio\n
 
 Serie: 3\n
 Ripetizioni: 12\n
-Riposo: 1 minuto tra le serie\n
-Giorno 2: Schiena e Bicipiti\n
+Riposo: 1 minuto tra le serie\n\n
+Giorno 2: Schiena e Bicipiti\n\n
 Riscaldamento (5-10 minuti)\n
 Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
 Stretching dinamico per la parte superiore del corpo: 2-5 minuti\n
@@ -81,8 +81,8 @@ Curl con Manubri Alternati\n
 
 Serie: 3\n
 Ripetizioni: 12 per braccio\n
-Riposo: 1 minuto tra le serie\n
-Giorno 3: Gambe e Polpacci\n
+Riposo: 1 minuto tra le serie\n\n
+Giorno 3: Gambe e Polpacci\n\n
 Riscaldamento (5-10 minuti)\n
 Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
 Stretching dinamico per la parte inferiore del corpo: 2-5 minuti\n
@@ -106,8 +106,8 @@ Calf Raises\n
 
 Serie: 3\n
 Ripetizioni: 15\n
-Riposo: 1 minuto tra le serie\n
-Giorno 4: Spalle e Addome\n
+Riposo: 1 minuto tra le serie\n\n
+Giorno 4: Spalle e Addome\n\n
 Riscaldamento (5-10 minuti)\n
 Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
 Stretching dinamico per la parte superiore del corpo: 2-5 minuti\n
@@ -136,8 +136,8 @@ Russian Twist\n
 
 Serie: 3\n
 Ripetizioni: 20 per lato\n
-Riposo: 1 minuto tra le serie\n
-Giorno 5: Allenamento Completo\n
+Riposo: 1 minuto tra le serie\n\n
+Giorno 5: Allenamento Completo\n\n
 Riscaldamento (5-10 minuti)\n
 Corsa leggera sul posto o tapis roulant: 3-5 minuti\n
 Stretching dinamico: 2-5 minuti\n
