@@ -20,10 +20,7 @@
             android:id="@+id/nav_corpo"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="corpo" />
-        <item
-            android:id="@+id/nav_pasti"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="pasti" />
+
         <item
             android:id="@+id/nav_statistiche"
             android:icon="@drawable/ic_menu_slideshow"

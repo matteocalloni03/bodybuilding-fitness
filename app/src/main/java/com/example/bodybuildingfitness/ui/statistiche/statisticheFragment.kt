@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
 import com.example.bodybuildingfitness.databinding.FragmentCorpoBinding
-import com.example.bodybuildingfitness.databinding.FragmentPastiBinding
+
 import com.example.bodybuildingfitness.databinding.FragmentStatisticheBinding
 import com.example.bodybuildingfitness.ui.corpo.CorpoViewModel
 

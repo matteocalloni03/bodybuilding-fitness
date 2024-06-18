@@ -10,11 +10,7 @@
         android:name="com.example.bodybuildingfitness.ui.statistiche.statisticheFragment"
         android:label="@string/menu_statistiche"
         tools:layout="@layout/fragment_statistiche" />
-    <fragment
-        android:id="@+id/nav_pasti"
-        android:name="com.example.bodybuildingfitness.ui.pasti.pastiFragment"
-        android:label="@string/menu_pasti"
-        tools:layout="@layout/fragment_pasti" />
+
     <fragment
         android:id="@+id/nav_corpo"
         android:name="com.example.bodybuildingfitness.ui.corpo.corpoFragment"
