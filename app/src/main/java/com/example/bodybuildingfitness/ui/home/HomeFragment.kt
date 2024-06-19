@@ -28,22 +28,6 @@ class HomeFragment : Fragment() {
     // onDestroyView.
     private val binding get() = _binding!!
 
-   /* override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
-
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
-        val root: View = binding.root
-
-
-        homeViewModel.text.observe(viewLifecycleOwner) {
-        }
-        return root
-    }*/
    override fun onCreateView(
        inflater: LayoutInflater, container: ViewGroup?,
        savedInstanceState: Bundle?
@@ -57,7 +41,7 @@ class HomeFragment : Fragment() {
        resetButton = view.findViewById(R.id.reset_button)
 
        val times = resources.getStringArray(R.array.timer_values)
-       val timeValues = arrayOf(30000L, 60000L, 90000L)
+       val timeValues = arrayOf(30000L, 60000L, 90000L,120000L,150000L,180000L,210000L,240000L,)
 
        var selectedTime = timeValues[0]
        spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {

@@ -2,8 +2,13 @@
 <resources>
     <string name="app_name">TimerApp</string>
     <string-array name="timer_values">
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>1 minute 30 seconds</item>
+        <item>30 secondi</item>
+        <item>1 minuto</item>
+        <item>1 minuto 30 secondi</item>
+        <item>2 minuti</item>
+        <item>2 minuti 30 secondi</item>
+        <item>3 minuti</item>
+        <item>3 minuti 30 secondi</item>
+        <item>4 minuti</item>
     </string-array>
 </resources>
