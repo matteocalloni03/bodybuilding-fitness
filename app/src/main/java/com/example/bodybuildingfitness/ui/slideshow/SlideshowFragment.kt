@@ -71,6 +71,14 @@ class SlideshowFragment : Fragment() {
             startActivity(intent)
         }
 
+        //giorni personalizzata
+        val button6 = binding.button6
+        button6.setOnClickListener {
+            val intent = Intent(requireContext(), giornipersonalizzata::class.java)
+            startActivity(intent)
+        }
+
+
     }
 
 
