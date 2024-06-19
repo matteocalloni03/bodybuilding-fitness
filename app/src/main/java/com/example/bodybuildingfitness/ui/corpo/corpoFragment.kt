@@ -18,6 +18,7 @@ import com.example.bodybuildingfitness.databinding.FragmentCorpoBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 
+
 class corpoFragment : Fragment() {
 
     private var _binding: FragmentCorpoBinding? = null
