@@ -24,8 +24,6 @@ class HomeFragment : Fragment() {
     private lateinit var resetButton: Button
     private var countDownTimer: CountDownTimer? = null
     private var timeLeftInMillis: Long = 0
-    // This property is only valid between onCreateView and
-    // onDestroyView.
     private val binding get() = _binding!!
 
    override fun onCreateView(

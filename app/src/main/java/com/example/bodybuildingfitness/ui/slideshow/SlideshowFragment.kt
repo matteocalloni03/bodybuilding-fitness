@@ -16,8 +16,7 @@ class SlideshowFragment : Fragment() {
 
     private var _binding: FragmentSlideshowBinding? = null
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
+
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -32,9 +31,11 @@ class SlideshowFragment : Fragment() {
         val root: View = binding.root
 
         val textView: TextView = binding.TextSlideshow
-        slideshowViewModel.text.observe(viewLifecycleOwner) {
+        /*slideshowViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
+
+         */
         return root
     }
 
